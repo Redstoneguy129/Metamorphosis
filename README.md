@@ -11,6 +11,7 @@ A recreation of the Morph mod by IChun with better features and less overpowered
 [![GitHub issues](https://img.shields.io/github/issues/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/issues)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/pulls)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis#steps)
+[![Build](https://travis-ci.org/Redstoneguy129/Metamorphosis.svg?branch=1.15.x&style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/tree/1.15.x)
 
 # Contribute to Metamorphosis
 If you wish to contribute to Metamorphosis and submit PR's, you're in the right place!
