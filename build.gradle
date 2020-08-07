@@ -93,7 +93,7 @@ curseforge {
         id = '400866'
         changelog = System.getenv("TRAVIS_COMMIT_RANGE")
         releaseType = modReleaseType
-        addGameVersion "${forgeVersion}"
+        addGameVersion "${minecraftVersion}"
         mainArtifact(jar) {
             displayName = System.getenv("TRAVIS_BRANCH")
         }
