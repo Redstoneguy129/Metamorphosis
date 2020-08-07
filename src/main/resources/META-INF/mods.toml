@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Redstoneguy129/Metamorphosis/issues"
+
+[[mods]]
+modId="metamorphosis"
+version="${file.jarVersion}"
+displayName="Metamorphosis"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://github.com/Redstoneguy129/Metamorphosis"
+credits="Thanks for the textures goes to {name}"
+authors="Redstoneguy129"
+description="metamorphosis"
+
+[[dependencies.metamorphosis]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.metamorphosis]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
