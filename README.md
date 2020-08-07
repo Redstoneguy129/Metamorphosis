@@ -5,7 +5,7 @@ Metamorphosis is a community based open source Minecraft mod.
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
-[![GitHub forks](https://img.shields.io/github/forks/Redstoneguy129/Metamorphosis.svg?style=for-the-badge&label=Fork&maxAge=2592000)](https://github.com/Redstoneguy129/Metamorphosis/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/Redstoneguy129/Metamorphosis.svg?style=for-the-badge&label=Forks&maxAge=2592000)](https://github.com/Redstoneguy129/Metamorphosis/network/members)
 [![GitHub contributors](https://img.shields.io/github/contributors/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/issues)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/pulls)
@@ -28,7 +28,7 @@ If you wish to contribute to Metamorphosis and submit PR's, you're in the right 
 ### Contributor Agreement
 When making a PR to this repo your code will no longer be yours so you need to sign the Contributor License Agreement.
 
-[![CLA assistant](https://cla-assistant.io/readme/badge/Redstoneguy129/Metamorphosis)](https://cla-assistant.io/Redstoneguy129/Metamorphosis)
+[![CLA assistant](https://cla-assistant.io/readme/badge/Redstoneguy129/Metamorphosis?style=for-the-badge)](https://cla-assistant.io/Redstoneguy129/Metamorphosis)
 
 # Donate
 Metamorphosis is a great Minecraft mod. To keep Metamorphosis active and keep it from dying out like IChuns Morph mod did please consider donating.
