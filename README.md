@@ -5,11 +5,11 @@ Metamorphosis is a community based open source Minecraft mod.
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
-[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Redstoneguy129/Metamorphosis/network/members)
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Redstoneguy129/Metamorphosis/graphs/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Redstoneguy129/Metamorphosis/issues)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/Redstoneguy129/Metamorphosis/pulls)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Redstoneguy129/Metamorphosis#steps)
+[![GitHub forks](https://img.shields.io/github/forks/Redstoneguy129/Metamorphosis.svg?style=for-the-badge&label=Fork&maxAge=2592000)](https://github.com/Redstoneguy129/Metamorphosis/network/members)
+[![GitHub contributors](https://img.shields.io/github/contributors/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/issues)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg??style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis#steps)
 
 # Contribute to Metamorphosis
 If you wish to contribute to Metamorphosis and submit PR's, you're in the right place!
