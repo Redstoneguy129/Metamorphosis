@@ -18,5 +18,5 @@ deploy:
   file: build/libs/*.jar
   on:
     repo: Redstoneguy129/Metamorphosis
-    branch: 1.15.x
+    branch: 1.15.x-production
   skip_cleanup: 'true'
