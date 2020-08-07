@@ -21,9 +21,11 @@ If you wish to contribute to Metamorphosis and submit PR's, you're in the right 
 
 ### Contributor Agreement
 When making a PR to this repo your code will no longer be yours so you need to sign the Contributor License Agreement.
+
 [![CLA assistant](https://cla-assistant.io/readme/badge/Redstoneguy129/Metamorphosis)](https://cla-assistant.io/Redstoneguy129/Metamorphosis)
 
 # Donate
 Metamorphosis is a great Minecraft mod. To keep Metamorphosis active and keep it from dying out like IChuns Morph mod did please consider donating.
 This is not a requirement, the mod will always be free to play.
+
 [Donate at Ko-fi](https://ko-fi.com/metamorphosis).
