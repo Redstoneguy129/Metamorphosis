@@ -9,7 +9,7 @@ Metamorphosis is a community based open source Minecraft mod.
 [![GitHub contributors](https://img.shields.io/github/contributors/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/issues)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Redstoneguy129/Metamorphosis.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis/pulls)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg??style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis#steps)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/Redstoneguy129/Metamorphosis#steps)
 
 # Contribute to Metamorphosis
 If you wish to contribute to Metamorphosis and submit PR's, you're in the right place!
