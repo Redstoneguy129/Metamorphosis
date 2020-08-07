@@ -1,5 +1,6 @@
 # Metamorphosis
 Metamorphosis is a community based open source Minecraft mod.
+A recreation of the Morph mod by IChun with better features and less overpowered.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
