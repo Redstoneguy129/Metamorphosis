@@ -5,4 +5,18 @@ dist: trusty
 before_install:
   - chmod +x gradlew
 script:
-  - ./gradlew build
+  - "./gradlew build"
+before_deploy:
+  - git config --local user.name "Redstoneguy129"
+  - git config --local user.email "public@cameronwhyte.me"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - git tag $TRAVIS_TAG
+deploy:
+  provider: releases
+  api_key:
+    secure: VVsajl+3tQlnyW5woXa5UPrTSwxrb6FP28/rLM9MIFe5tVT6dTP6xZdqSqe6eWKPwGvla2KtTH+juDrbjSFgrdbukXgTGjION5vkGSbD/NCFJQXxW6w0eDMKUV7mrkE67TBccXPnC2STkAYUuCLwJOEh2Gq9H755vknsM/D+YU7YyRETkPZLw0WEM2olCi+ZZnOc6Pe1Bs9uBZHTjnpz6LjwCS9xjV0744YSM6Lz92GVGSCevvwCih1AXUZdZ/IrnaFVP4rvnutquBjB0ddaOQTRA61yR7TXUoCMIxNSdCIkcZoCz7FJzQKdiVCu3FICNaWKJHQcxwER3yLAtH5/WvDm4tmWx8ZMgquEdCfddMWb0kJzGe+PW6G8aGZFkZ5ETFh3xlpcBrbIv4dux/PqcuBrnRpWha+KL4FYmrMc/O6xJTiRnvmf73hOE+oRsXnHwgPt+kPNrr/jmcJEREY7jXZzp94LjN0RVNXtcMBKYa+c+WdVxLvue7ALRp0/QsYKsdbUZMS2ezqP45vYBXByy+yJN2vbfYbyRKU61MURwSba088/8zWEVdlsVUHVifLgUpVuXCVb4vQRw2I6MUdFjnSq7N05LM3K8Ftajn7DPPQAqy3SZ0ZnYHbYNK7RCLVaNAhuMlR0/xen1ReiM2ddFLIIyxGGB0slZcYDuImjhOQ=
+  file: build/libs/*.jar
+  on:
+    repo: Redstoneguy129/Metamorphosis
+    branch: 1.15.x
+  skip_cleanup: 'true'
