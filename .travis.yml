@@ -3,4 +3,5 @@ jdk: oraclejdk8
 os: linux
 dist: trusty
 script:
+  - chmod 755 gradlew
   - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then bash ./gradlew build; fi'
