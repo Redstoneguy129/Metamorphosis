@@ -8,12 +8,22 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+
+plugins {
+    id "com.matthewprenger.cursegradle" version "1.4.0"
+}
+
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
 version = modVersion
 group = "me.redstoneguy129.${modID}"
 archivesBaseName = modID
+def modReleaseType = "beta"
+
+if(Integer.parseInt(version.split("\\.")[1]) == 0) {
+    modReleaseType = "release"
+}
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
@@ -76,3 +86,16 @@ jar {
 }
 
 jar.finalizedBy('reobfJar')
+
+curseforge {
+    apiKey = System.getenv("CFAPIKEY")
+    project {
+        id = '400866'
+        changelog = System.getenv("TRAVIS_COMMIT_RANGE")
+        releaseType = modReleaseType
+        addGameVersion "${forgeVersion}"
+        mainArtifact(jar) {
+            displayName = System.getenv("TRAVIS_BRANCH")
+        }
+    }
+}
