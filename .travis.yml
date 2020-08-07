@@ -1,7 +1,6 @@
 language: java
 jdk: oraclejdk8
-install: skip
 os: linux
-dist: bionic
+dist: trusty
 script:
   - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then bash ./gradlew build; fi'
